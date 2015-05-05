@@ -32,6 +32,10 @@ public class DemoProject {
 		name = newName;
 	}
 	
+	public void setAge(int newAge) {
+		age = newAge;
+	}
+	
 	
 	}
 	

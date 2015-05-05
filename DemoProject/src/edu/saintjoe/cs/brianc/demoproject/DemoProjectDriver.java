@@ -11,7 +11,9 @@ public class DemoProjectDriver {
 		petTwo = new DemoProject("Sissy", 2, 1);
 		petThree = new DemoProject("C", 8, 1);
 		
-
+		System.out.println("Data for pet one: " + petOne.toString());
+		petOne.setAge(16);
+		System.out.println("Data for pet one: " + petOne.toString());
 	}
 
 }
